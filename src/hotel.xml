@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hotel>
+  <clientesHabituales>
+    <modelo.ClienteHabitual>
+      <reservas>
+        <modelo.Reserva>
+          <estado class="modelo.ReservaOcupada">
+            <lock/>
+            <state>0</state>
+            <nextExecutionTime>0</nextExecutionTime>
+            <period>0</period>
+            <reserva reference="../.."/>
+            <hotel reference="../../../../../.."/>
+          </estado>
+          <habitacion class="modelo.Simple">
+            <reservas>
+              <modelo.Reserva reference="../../.."/>
+            </reservas>
+            <numero>1</numero>
+          </habitacion>
+          <cliente class="modelo.ClienteHabitual" reference="../../.."/>
+          <fechaEntrada>2020-05-23 19:16:58.608 UTC</fechaEntrada>
+          <fechaSalida>2020-05-25 19:16:58.608 UTC</fechaSalida>
+          <NumDias>2</NumDias>
+          <importe>207.45</importe>
+          <cuentaBancaria>89789213</cuentaBancaria>
+        </modelo.Reserva>
+        <modelo.Reserva>
+          <estado class="modelo.ReservaOcupada">
+            <lock/>
+            <state>0</state>
+            <nextExecutionTime>0</nextExecutionTime>
+            <period>0</period>
+            <reserva reference="../.."/>
+            <hotel reference="../../../../../.."/>
+          </estado>
+          <habitacion class="modelo.Simple">
+            <reservas>
+              <modelo.Reserva reference="../../.."/>
+            </reservas>
+            <numero>2</numero>
+          </habitacion>
+          <cliente class="modelo.ClienteHabitual" reference="../../.."/>
+          <fechaEntrada>2020-05-23 19:21:09.601 UTC</fechaEntrada>
+          <fechaSalida>2020-05-28 19:21:09.601 UTC</fechaSalida>
+          <NumDias>5</NumDias>
+          <importe>207.45</importe>
+          <cuentaBancaria>324</cuentaBancaria>
+        </modelo.Reserva>
+      </reservas>
+      <DNI>1234</DNI>
+      <nombre>JORGE</nombre>
+      <apellidos>COELLO</apellidos>
+      <telefono>666666666</telefono>
+      <direccion>calle jaja</direccion>
+      <descuento>
+        <descuento>10</descuento>
+      </descuento>
+      <correo>jorge@hotmail.com</correo>
+    </modelo.ClienteHabitual>
+    <modelo.ClienteHabitual>
+      <reservas/>
+      <DNI>4765</DNI>
+      <nombre>IVAN</nombre>
+      <apellidos>GREGORI</apellidos>
+      <telefono>345678456</telefono>
+      <direccion>calle ala</direccion>
+      <descuento reference="../../modelo.ClienteHabitual/descuento"/>
+      <correo>ivan@gmail.com</correo>
+    </modelo.ClienteHabitual>
+  </clientesHabituales>
+  <personal>
+    <modelo.Recepcionista>
+      <hotel reference="../../.."/>
+      <usuario>Yannick</usuario>
+      <password>1234567</password>
+      <clienteActual class="modelo.ClienteHabitual" reference="../../../clientesHabituales/modelo.ClienteHabitual"/>
+      <fechaSeleccionadaReserva reference="../../../clientesHabituales/modelo.ClienteHabitual/reservas/modelo.Reserva[2]/fechaEntrada"/>
+      <fecha__salida reference="../../../clientesHabituales/modelo.ClienteHabitual/reservas/modelo.Reserva[2]/fechaSalida"/>
+    </modelo.Recepcionista>
+    <modelo.Supervisor>
+      <hotel reference="../../.."/>
+      <usuario>Ivan</usuario>
+      <password>543267</password>
+    </modelo.Supervisor>
+    <modelo.Propietario>
+      <hotel reference="../../.."/>
+      <usuario>Jefe99</usuario>
+      <password>jefe</password>
+    </modelo.Propietario>
+  </personal>
+  <simples>
+    <modelo.Simple reference="../../clientesHabituales/modelo.ClienteHabitual/reservas/modelo.Reserva/habitacion"/>
+    <modelo.Simple reference="../../clientesHabituales/modelo.ClienteHabitual/reservas/modelo.Reserva[2]/habitacion"/>
+  </simples>
+  <dobles>
+    <modelo.Doble>
+      <reservas/>
+      <numero>3</numero>
+    </modelo.Doble>
+    <modelo.Doble>
+      <reservas/>
+      <numero>4</numero>
+    </modelo.Doble>
+  </dobles>
+  <dobleMatrimonios>
+    <modelo.DobleMatrimonio>
+      <reservas/>
+      <numero>5</numero>
+    </modelo.DobleMatrimonio>
+    <modelo.DobleMatrimonio>
+      <reservas/>
+      <numero>6</numero>
+    </modelo.DobleMatrimonio>
+  </dobleMatrimonios>
+  <reservasPendientes/>
+  <reservasOcupadas>
+    <modelo.ReservaOcupada reference="../../clientesHabituales/modelo.ClienteHabitual/reservas/modelo.Reserva/estado"/>
+    <modelo.ReservaOcupada reference="../../clientesHabituales/modelo.ClienteHabitual/reservas/modelo.Reserva[2]/estado"/>
+  </reservasOcupadas>
+  <reservasCanceladas/>
+  <reservasFinalizadas/>
+  <descuento reference="../clientesHabituales/modelo.ClienteHabitual/descuento"/>
+  <detallesTarifas>
+    <precioSimple>230.5</precioSimple>
+    <precioDoble>450.0</precioDoble>
+    <precioMatrimonio>760.5</precioMatrimonio>
+  </detallesTarifas>
+</hotel>

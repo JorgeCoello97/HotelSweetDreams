@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroupTipoCliente">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroupCedeDatos">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[500, 761]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="500" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="panelReservarHabitacion" alignment="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="761" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="panelReservarHabitacion" alignment="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelReservarHabitacion">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[500, 761]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="panelReservarHabitacionPrincipal" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="panelReservarHabitacionPrincipal" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="panelReservarHabitacionPrincipal">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="66" red="66" type="rgb"/>
+            </Property>
+            <Property name="alignmentX" type="float" value="0.0"/>
+            <Property name="alignmentY" type="float" value="0.0"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="panelReservarHabitacionPrincipalContenido">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                  <BorderConstraints direction="Center"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="panelReservarHabitacionFormulario" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="panelReservarHabitacionFormulario" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="panelReservarHabitacionFormulario">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="99" red="99" type="rgb"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="panelReservarHabitacionHabitualFormulario" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="panelReservarHabitacionHabitualFormulario" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="panelReservarHabitacionHabitualFormulario">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                            <EtchetBorder/>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="432" max="32767" attributes="0"/>
+                              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="panelReservarHabitacionContenidoFormulario" max="32767" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="620" max="32767" attributes="0"/>
+                              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="panelReservarHabitacionContenidoFormulario" max="32767" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="javax.swing.JPanel" name="panelReservarHabitacionContenidoFormulario">
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+                          <SubComponents>
+                            <Container class="javax.swing.JPanel" name="panelReservarHabitacionContenidoFormularioCuerpo">
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                                  <BorderConstraints direction="Center"/>
+                                </Constraint>
+                              </Constraints>
+
+                              <Layout>
+                                <DimensionLayout dim="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="panelReservarHabitacionContenidoFormularioCuerpoPrincipal" max="32767" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                                <DimensionLayout dim="1">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="panelReservarHabitacionContenidoFormularioCuerpoPrincipal" max="32767" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                              </Layout>
+                              <SubComponents>
+                                <Container class="javax.swing.JPanel" name="panelReservarHabitacionContenidoFormularioCuerpoPrincipal">
+
+                                  <Layout>
+                                    <DimensionLayout dim="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="panelBuscarClienteHabitual" alignment="1" pref="372" max="32767" attributes="0"/>
+                                                  <Component id="panelFormularioClienteCedeDatos" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="panelFormularioClienteTarjetaCredito" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="panelFormularioClienteDatosPersonales" alignment="1" max="32767" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                    </DimensionLayout>
+                                    <DimensionLayout dim="1">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="panelBuscarClienteHabitual" min="-2" pref="77" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="panelFormularioClienteDatosPersonales" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="panelFormularioClienteTarjetaCredito" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="panelFormularioClienteCedeDatos" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                    </DimensionLayout>
+                                  </Layout>
+                                  <SubComponents>
+                                    <Container class="javax.swing.JPanel" name="panelBuscarClienteHabitual">
+                                      <Properties>
+                                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                          <Color blue="99" green="99" red="99" type="rgb"/>
+                                        </Property>
+                                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                                            <EtchetBorder/>
+                                          </Border>
+                                        </Property>
+                                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                                          <Dimension value="[454, 73]"/>
+                                        </Property>
+                                      </Properties>
+
+                                      <Layout>
+                                        <DimensionLayout dim="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="panelPrincipalBuscarClienteHabitual" alignment="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                        </DimensionLayout>
+                                        <DimensionLayout dim="1">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="panelPrincipalBuscarClienteHabitual" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                        </DimensionLayout>
+                                      </Layout>
+                                      <SubComponents>
+                                        <Container class="javax.swing.JPanel" name="panelPrincipalBuscarClienteHabitual">
+                                          <Properties>
+                                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                              <Color blue="66" green="66" red="66" type="rgb"/>
+                                            </Property>
+                                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                                                <EtchetBorder/>
+                                              </Border>
+                                            </Property>
+                                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                                              <Dimension value="[454, 73]"/>
+                                            </Property>
+                                          </Properties>
+
+                                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+                                          <SubComponents>
+                                            <Container class="javax.swing.JPanel" name="panelClienteHabitualDNI">
+                                              <Properties>
+                                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                                  <Color blue="66" green="66" red="66" type="rgb"/>
+                                                </Property>
+                                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                                    <TitledBorder justification="2" position="2" title="DNI Cliente Habitual">
+                                                      <Font PropertyName="font" name="Tahoma" size="14" style="1"/>
+                                                      <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+                                                    </TitledBorder>
+                                                  </Border>
+                                                </Property>
+                                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                                  <Font name="Tahoma" size="18" style="1"/>
+                                                </Property>
+                                              </Properties>
+                                              <Constraints>
+                                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                                                  <BorderConstraints direction="Center"/>
+                                                </Constraint>
+                                              </Constraints>
+
+                                              <Layout>
+                                                <DimensionLayout dim="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="fieldDNIClienteHabitual" pref="199" max="32767" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                </DimensionLayout>
+                                                <DimensionLayout dim="1">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="fieldDNIClienteHabitual" pref="32" max="32767" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                </DimensionLayout>
+                                              </Layout>
+                                              <SubComponents>
+                                                <Component class="javax.swing.JTextField" name="fieldDNIClienteHabitual">
+                                                  <Properties>
+                                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                                      <Font name="Tahoma" size="14" style="0"/>
+                                                    </Property>
+                                                    <Property name="horizontalAlignment" type="int" value="0"/>
+                                                  </Properties>
+                                                </Component>
+                                              </SubComponents>
+                                            </Container>
+                                            <Container class="javax.swing.JPanel" name="panelClienteHabitualBttnBuscar">
+                                              <Properties>
+                                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                                  <Color blue="66" green="66" red="66" type="rgb"/>
+                                                </Property>
+                                              </Properties>
+                                              <Constraints>
+                                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                                                  <BorderConstraints direction="East"/>
+                                                </Constraint>
+                                              </Constraints>
+
+                                              <Layout>
+                                                <DimensionLayout dim="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="bttnClienteHabitualBuscar" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                </DimensionLayout>
+                                                <DimensionLayout dim="1">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="bttnClienteHabitualBuscar" pref="47" max="32767" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                </DimensionLayout>
+                                              </Layout>
+                                              <SubComponents>
+                                                <Component class="javax.swing.JButton" name="bttnClienteHabitualBuscar">
+                                                  <Properties>
+                                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                                      <Font name="Tahoma" size="11" style="1"/>
+                                                    </Property>
+                                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                                      <Image iconType="3" name="/img/buscar_32.png"/>
+                                                    </Property>
+                                                    <Property name="text" type="java.lang.String" value="BUSCAR"/>
+                                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                                      <Color id="Cursor de Mano"/>
+                                                    </Property>
+                                                    <Property name="horizontalTextPosition" type="int" value="4"/>
+                                                  </Properties>
+                                                  <Events>
+                                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bttnClienteHabitualBuscarActionPerformed"/>
+                                                  </Events>
+                                                </Component>
+                                              </SubComponents>
+                                            </Container>
+                                          </SubComponents>
+                                        </Container>
+                                      </SubComponents>
+                                    </Container>
+                                    <Container class="javax.swing.JPanel" name="panelFormularioClienteDatosPersonales">
+                                      <Properties>
+                                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                            <TitledBorder justification="2" position="2" title="DATOS PERSONALES"/>
+                                          </Border>
+                                        </Property>
+                                      </Properties>
+
+                                      <Layout>
+                                        <DimensionLayout dim="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="panelFormularioClienteDatosPersonalesCuerpo" max="32767" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                        </DimensionLayout>
+                                        <DimensionLayout dim="1">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="panelFormularioClienteDatosPersonalesCuerpo" max="32767" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                        </DimensionLayout>
+                                      </Layout>
+                                      <SubComponents>
+                                        <Container class="javax.swing.JPanel" name="panelFormularioClienteDatosPersonalesCuerpo">
+
+                                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                                            <Property name="columns" type="int" value="2"/>
+                                            <Property name="rows" type="int" value="6"/>
+                                            <Property name="verticalGap" type="int" value="10"/>
+                                          </Layout>
+                                          <SubComponents>
+                                            <Component class="javax.swing.JLabel" name="labelFormularioClienteDNI">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                                <Property name="text" type="java.lang.String" value="DNI:"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JTextField" name="fieldFormularioClienteDNI">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JLabel" name="labelFormularioClienteNombre">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                                <Property name="text" type="java.lang.String" value="Nombre:"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JTextField" name="fieldFormularioClienteNombre">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JLabel" name="labelFormularioClienteApellidos">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                                <Property name="text" type="java.lang.String" value="Apellidos:"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JTextField" name="fieldFormularioClienteApellidos">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JLabel" name="labelFormularioClienteCorreo">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                                <Property name="text" type="java.lang.String" value="Correo:"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JTextField" name="fieldFormularioClienteCorreo">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JLabel" name="labelFormularioClienteDireccion">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                                <Property name="text" type="java.lang.String" value="Direcci&#xf3;n:"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JTextField" name="fieldFormularioClienteDireccion">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JLabel" name="labelFormularioClienteTelefono">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                                <Property name="text" type="java.lang.String" value="Tel&#xe9;fono:"/>
+                                              </Properties>
+                                            </Component>
+                                            <Component class="javax.swing.JTextField" name="fieldFormularioClienteTelefono">
+                                              <Properties>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                              </Properties>
+                                            </Component>
+                                          </SubComponents>
+                                        </Container>
+                                      </SubComponents>
+                                    </Container>
+                                    <Container class="javax.swing.JPanel" name="panelFormularioClienteTarjetaCredito">
+                                      <Properties>
+                                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                            <TitledBorder justification="2" position="2" title="TARJETA DE CREDITO"/>
+                                          </Border>
+                                        </Property>
+                                      </Properties>
+
+                                      <Layout>
+                                        <DimensionLayout dim="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="fieldFormularioClienteTarjetaCredito" pref="340" max="32767" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                        </DimensionLayout>
+                                        <DimensionLayout dim="1">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <EmptySpace min="0" pref="42" max="32767" attributes="0"/>
+                                              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="fieldFormularioClienteTarjetaCredito" max="32767" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                        </DimensionLayout>
+                                      </Layout>
+                                      <SubComponents>
+                                        <Component class="javax.swing.JTextField" name="fieldFormularioClienteTarjetaCredito">
+                                          <Properties>
+                                            <Property name="horizontalAlignment" type="int" value="0"/>
+                                          </Properties>
+                                        </Component>
+                                      </SubComponents>
+                                    </Container>
+                                    <Container class="javax.swing.JPanel" name="panelFormularioClienteCedeDatos">
+                                      <Properties>
+                                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                          <Color blue="66" green="66" red="66" type="rgb"/>
+                                        </Property>
+                                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                                            <EtchetBorder/>
+                                          </Border>
+                                        </Property>
+                                      </Properties>
+
+                                      <Layout>
+                                        <DimensionLayout dim="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="panelFormularioClienteCedeDatosPrincipal" max="32767" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                        </DimensionLayout>
+                                        <DimensionLayout dim="1">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="panelFormularioClienteCedeDatosPrincipal" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                        </DimensionLayout>
+                                      </Layout>
+                                      <SubComponents>
+                                        <Container class="javax.swing.JPanel" name="panelFormularioClienteCedeDatosPrincipal">
+                                          <Properties>
+                                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                                                <EtchetBorder/>
+                                              </Border>
+                                            </Property>
+                                          </Properties>
+
+                                          <Layout>
+                                            <DimensionLayout dim="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="labelCedeDatosTitulo" alignment="0" pref="344" max="32767" attributes="0"/>
+                                                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                                      <Component id="panelCedeDatosOpciones" alignment="1" pref="344" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                            </DimensionLayout>
+                                            <DimensionLayout dim="1">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="labelCedeDatosTitulo" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace pref="86" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <EmptySpace pref="32" max="32767" attributes="0"/>
+                                                          <Component id="panelCedeDatosOpciones" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                            </DimensionLayout>
+                                          </Layout>
+                                          <SubComponents>
+                                            <Component class="javax.swing.JLabel" name="labelCedeDatosTitulo">
+                                              <Properties>
+                                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                                  <Font name="Tahoma" size="11" style="1"/>
+                                                </Property>
+                                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                                <Property name="text" type="java.lang.String" value="Cede sus datos:"/>
+                                              </Properties>
+                                            </Component>
+                                            <Container class="javax.swing.JPanel" name="panelCedeDatosOpciones">
+
+                                              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+                                              <SubComponents>
+                                                <Component class="javax.swing.JRadioButton" name="radioButtonFormularioClienteSiCede">
+                                                  <Properties>
+                                                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                                      <ComponentRef name="buttonGroupCedeDatos"/>
+                                                    </Property>
+                                                    <Property name="text" type="java.lang.String" value="SI"/>
+                                                  </Properties>
+                                                </Component>
+                                                <Component class="javax.swing.JRadioButton" name="radioButtonFormularioClienteNoCede">
+                                                  <Properties>
+                                                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                                      <ComponentRef name="buttonGroupCedeDatos"/>
+                                                    </Property>
+                                                    <Property name="selected" type="boolean" value="true"/>
+                                                    <Property name="text" type="java.lang.String" value="NO"/>
+                                                  </Properties>
+                                                </Component>
+                                              </SubComponents>
+                                            </Container>
+                                          </SubComponents>
+                                        </Container>
+                                      </SubComponents>
+                                    </Container>
+                                  </SubComponents>
+                                </Container>
+                              </SubComponents>
+                            </Container>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="panelReservarHabitacionOpciones">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                  <BorderConstraints direction="South"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="bttnReservarHabitacionlAtras" min="-2" pref="100" max="-2" attributes="0"/>
+                          <EmptySpace pref="179" max="32767" attributes="0"/>
+                          <Component id="bttnReservarHabitacionConfirmarReservar" min="-2" pref="177" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="bttnReservarHabitacionConfirmarReservar" alignment="0" max="32767" attributes="0"/>
+                              <Component id="bttnReservarHabitacionlAtras" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="bttnReservarHabitacionConfirmarReservar">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/img/listado_habitaciones_32.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Confirmar Reserva"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de Mano"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bttnReservarHabitacionConfirmarReservarActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="bttnReservarHabitacionlAtras">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/img/volver_32.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Atr&#xe1;s"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de Mano"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bttnReservarHabitacionlAtrasActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
